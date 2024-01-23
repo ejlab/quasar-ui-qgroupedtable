@@ -1,0 +1,22 @@
+{
+  "name": "@ejlab/quasar-app-extension-qgroupedtable",
+  "version": "0.0.1",
+  "description": "A Quasar App Extension for @ejlab/quasar-ui-qgroupedtable",
+  "author": "Eunjun Park <pejold@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ejlab/quasar-ui-qgroupedtable"
+  },
+  "bugs": "https://github.com/ejlab/quasar-ui-qgroupedtable/issues",
+  "homepage": "https://github.com/ejlab/quasar-ui-qgroupedtable",
+  "dependencies": {
+    "quasar-ui-qgroupedtable": "latest"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  }
+}
