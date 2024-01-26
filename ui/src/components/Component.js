@@ -365,6 +365,15 @@ export default defineComponent({
           color: props.color,
           dark: props.dark,
           dense: props.dense,
+          onRowClick: (event, row, index) => {
+            emit('row-click', event, row, index);
+          },
+          onRowDblclick: (event, row, index) => {
+            emit('row-dblclick', event, row, index);
+          },
+          onRowContextmenu: (event, row, index) => {
+            emit('row-contextmenu', event, row, index);
+          },
           ...additionalProps,
         },
         proxySlots
